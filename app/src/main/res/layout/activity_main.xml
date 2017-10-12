@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_Skin_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skin_brown"
+            android:textColor="@color/colorPrimary"
+            skin:enable="true"
+            tools:ignore="MissingPrefix" />
+
+        <Button
+            android:id="@+id/btn_Skin_brown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Skin_black"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="MissingPrefix"
+            skin:enable="true" />
+    </LinearLayout>
+
+
+</LinearLayout>
